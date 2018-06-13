@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Google Facts</string>
+    <string name="app_intro">What do you really know about our favorite search giant, Google? Test
+        your knowledge about these fun facts and click SUBMIT below to see your results!</string>
+    <string name="q1">1) What did co-founders Larry Page and Sergey Brin originally name
+        Google?</string>
+    <string name="q1_a1">Billions</string>
+    <string name="q1_a2">Backrub</string>
+    <string name="q1_a3">Infinity</string>
+    <string name="q1_a4">SiteSource</string>
+    <string name="q2">2) How many zeros are in a Google?</string>
+    <string name="q2_hint">Enter a number</string>
+    <string name="q3">3) As part of their green initiative, Google regularly rents goats to mow the
+        lawns of their Mountain View headquarters.</string>
+    <string name="q3_a1">True</string>
+    <string name="q3_a2">False</string>
+    <string name="q4">4) As of 2016, what are Google’s three closest search competitors by estimated
+        unique monthly visitors?</string>
+    <string name="q4_a1">Bing</string>
+    <string name="q4_a2">AOL</string>
+    <string name="q4_a3">Yahoo</string>
+    <string name="q4_a4">Ask Jeeves</string>
+    <string name="submit">SUBMIT</string>
+    <string name="incorrect_0">0% correct. Please try again</string>
+    <string name="incorrect_25">25% correct. Please try again.</string>
+    <string name="incorrect_50">50% correct. Please try again.</string>
+    <string name="incorrect_75">75% correct. Please try again.</string>
+    <string name="correct">100% correct! You are a true Google fan!</string>
+</resources>
