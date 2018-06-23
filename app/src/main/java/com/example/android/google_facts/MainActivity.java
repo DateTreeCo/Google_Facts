@@ -60,19 +60,19 @@ public class MainActivity extends AppCompatActivity {
 
         if (score == 100) {
             Toast.makeText(getApplicationContext(), getString(R.string.correct),
-                    Toast.LENGTH_LONG).show();
+                    Toast.LENGTH_SHORT).show();
         } else if (score == 75) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_75),
-                    Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.percent_75) + getString(R.string.incorrect),
+                    Toast.LENGTH_SHORT).show();
         } else if (score == 50) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_50),
-                    Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.percent_50) + getString(R.string.incorrect),
+                    Toast.LENGTH_SHORT).show();
         } else if (score == 25) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_25),
-                    Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.percent_25) + getString(R.string.incorrect),
+                    Toast.LENGTH_SHORT).show();
         } else if (score == 0) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_0),
-                    Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), getString(R.string.percent_0) + getString(R.string.incorrect),
+                    Toast.LENGTH_SHORT).show();
         }
     }
 

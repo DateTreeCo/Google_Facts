@@ -21,9 +21,10 @@
     <string name="q4_a3">Yahoo</string>
     <string name="q4_a4">Ask Jeeves</string>
     <string name="submit">SUBMIT</string>
-    <string name="incorrect_0">0% correct. Please try again</string>
-    <string name="incorrect_25">25% correct. Please try again.</string>
-    <string name="incorrect_50">50% correct. Please try again.</string>
-    <string name="incorrect_75">75% correct. Please try again.</string>
     <string name="correct">100% correct! You are a true Google fan!</string>
+    <string name="incorrect">\ correct. Please try again.</string>
+    <string name="percent_0">0%</string>
+    <string name="percent_25">25%</string>
+    <string name="percent_50">50%</string>
+    <string name="percent_75">75%</string>
 </resources>
