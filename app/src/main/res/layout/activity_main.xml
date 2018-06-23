@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -8,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:focusable="true"
         android:focusableInTouchMode="true"
         android:orientation="vertical">
 
@@ -36,6 +38,7 @@
             android:layout_marginStart="20dp">
 
             <RadioButton
+                android:id="@+id/q1_a1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q1_a1" />
@@ -47,11 +50,13 @@
                 android:text="@string/q1_a2" />
 
             <RadioButton
+                android:id="@+id/q1_a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q1_a3" />
 
             <RadioButton
+                android:id="@+id/q1_a4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q1_a4" />
@@ -97,6 +102,7 @@
                 android:text="@string/q3_a1" />
 
             <RadioButton
+                android:id="@+id/q3_a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q3_a2" />
@@ -120,6 +126,7 @@
             android:text="@string/q4_a1" />
 
         <CheckBox
+            android:id="@+id/q4_a2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
