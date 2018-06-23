@@ -16,26 +16,26 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/margin_heading"
+            android:layout_marginStart="@dimen/margin_heading"
+            android:layout_marginTop="@dimen/margin_heading"
             android:text="@string/app_intro"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
+            android:layout_marginTop="@dimen/margin_qa"
             android:text="@string/q1"
             android:textStyle="bold" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp">
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa">
 
             <RadioButton
                 android:id="@+id/q1_a1"
@@ -65,9 +65,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
+            android:layout_marginTop="@dimen/margin_qa"
             android:text="@string/q2"
             android:textStyle="bold" />
 
@@ -75,25 +75,25 @@
             android:id="@+id/q2_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
             android:hint="@string/q2_hint"
             android:inputType="number" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
+            android:layout_marginTop="@dimen/margin_qa"
             android:text="@string/q3"
             android:textStyle="bold" />
 
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp">
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa">
 
             <RadioButton
                 android:id="@+id/q3_a1"
@@ -111,9 +111,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
+            android:layout_marginTop="@dimen/margin_qa"
             android:text="@string/q4"
             android:textStyle="bold" />
 
@@ -121,40 +121,40 @@
             android:id="@+id/q4_a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
             android:text="@string/q4_a1" />
 
         <CheckBox
             android:id="@+id/q4_a2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
             android:text="@string/q4_a2" />
 
         <CheckBox
             android:id="@+id/q4_a3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
             android:text="@string/q4_a3" />
 
         <CheckBox
             android:id="@+id/q4_a4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/margin_qa"
+            android:layout_marginStart="@dimen/margin_qa"
             android:text="@string/q4_a4" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/margin_qa"
+            android:layout_marginTop="@dimen/margin_qa"
             android:onClick="submitQuiz"
             android:text="@string/submit" />
 

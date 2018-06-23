@@ -54,32 +54,31 @@ public class MainActivity extends AppCompatActivity {
         if (q3A1.isChecked()) {
             score += 25;
         }
-        if (q4A2.isChecked()) {
-            //do nothing
-        } else if ((q4A1.isChecked()) && (q4A3.isChecked()) && (q4A4.isChecked())) {
+        if ((q4A1.isChecked()) && (!q4A2.isChecked()) && (q4A3.isChecked()) && (q4A4.isChecked())) {
             score += 25;
         }
-        if (score == 0) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_0),
-                    Toast.LENGTH_LONG).show();
-        }
-        if (score == 25) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_25),
-                    Toast.LENGTH_LONG).show();
-        }
-        if (score == 50) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_50),
-                    Toast.LENGTH_LONG).show();
-        }
-        if (score == 75) {
-            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_75),
-                    Toast.LENGTH_LONG).show();
-        }
+
         if (score == 100) {
             Toast.makeText(getApplicationContext(), getString(R.string.correct),
                     Toast.LENGTH_LONG).show();
+        } else if (score == 75) {
+            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_75),
+                    Toast.LENGTH_LONG).show();
+        } else if (score == 50) {
+            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_50),
+                    Toast.LENGTH_LONG).show();
+        } else if (score == 25) {
+            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_25),
+                    Toast.LENGTH_LONG).show();
+        } else if (score == 0) {
+            Toast.makeText(getApplicationContext(), getString(R.string.incorrect_0),
+                    Toast.LENGTH_LONG).show();
         }
     }
+
+    /*This code is not necessary to save instance state for these view objects as this is handled
+    automatically, but is rather a basic how-to for future projects where other object types are not
+    automatically handled.
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -111,5 +110,5 @@ public class MainActivity extends AppCompatActivity {
         q4A2.setChecked(savedInstanceState.getBoolean("q4A2State"));
         q4A3.setChecked(savedInstanceState.getBoolean("q4A3State"));
         q4A4.setChecked(savedInstanceState.getBoolean("q4A4State"));
-    }
+    }*/
 }
