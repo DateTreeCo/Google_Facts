@@ -54,7 +54,9 @@ public class MainActivity extends AppCompatActivity {
         if (q3A1.isChecked()) {
             score += 25;
         }
-        if ((q4A1.isChecked()) && (q4A3.isChecked()) && (q4A4.isChecked())) {
+        if (q4A2.isChecked()) {
+            //do nothing
+        } else if ((q4A1.isChecked()) && (q4A3.isChecked()) && (q4A4.isChecked())) {
             score += 25;
         }
         if (score == 0) {
